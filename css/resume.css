@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+/* 초기화 코드 시작 */
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* 초기화 코드 끝 */
+
+/* 기본 영역 CSS */
+body {
+    font-family: 'Yeon Sung', cursive;
+}
+
+#wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 65%;
+    height: 100vh;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+body video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    opacity: 1.0;
+}
+
+/* 첫번째 영역 CSS */
+#wrap div.first {
+    width: 100%;
+    height: 10vh;
+    background: rgba(255,255,255,0.06);
+    position: relative;
+    border: 1px solid rgba(255,255,255,0.5);
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+#wrap div.first h1 {
+    font-size: 60px;
+    padding-top: 15px;
+    padding-left: 480px;
+    color: #fff;
+}
+
+/* 두번째 영역 CSS */
+#wrap div.second {
+    width: 50%;
+    height: 25vh;
+    z-index: 10;
+}
+
+#wrap div.second img {
+    display: flex;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 15%;
+}
+
+/* 세번째 영역 CSS */
+#wrap div.third {
+    width: 50%;
+    height: 25vh;
+    z-index: 10;
+}
+
+#wrap div.third h1 {
+    font-size: 60px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 35px;
+    color: #fff;
+}
+
+#wrap div.third span {
+    font-size: 40px;
+    margin: 0 auto;
+    color: #ccc;
+}
+
+/* 네번째 영역 CSS */
+#wrap div.fourth {
+    width: 24%;
+    height: 25vh;
+    text-align: center;
+    border-radius: 10%;
+    border: 1px solid rgba(255,255,255,0.5);
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.06);
+    z-index: 10;
+}
+
+#wrap div.fourth h1 {
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+#wrap div.fourth h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: #ccc;
+}
+
+/* 다섯번째 영역 CSS */
+#wrap div.fifth {
+    width: 24%;
+    height: 25vh;
+    text-align: center;
+    border-radius: 10%;
+    border: 1px solid rgba(255,255,255,0.5);
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.06);
+    z-index: 10;
+}
+
+#wrap div.fifth h1 {
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+#wrap div.fifth h2 {
+    font-size: 40px;
+    line-height: 30px;
+    color: #ccc;
+}
+
+/* 여섯번째 영역 CSS */
+#wrap div.sixth {
+    width: 24%;
+    height: 25vh;
+    text-align: center;
+    border-radius: 10%;
+    border: 1px solid rgba(255,255,255,0.5);
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.06);
+    z-index: 10;
+}
+
+#wrap div.sixth h1 {
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #fff;
+    padding-bottom: 25px;
+}
+
+#wrap div.sixth h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: #ccc;
+}
+
+/* 일곱번째 영역 CSS */
+#wrap div.seventh {
+    width: 24%;
+    height: 25vh;
+    text-align: center;
+    border-radius: 10%;
+    border: 1px solid rgba(255,255,255,0.5);
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.06);
+    z-index: 10;
+}
+
+#wrap div.seventh h1 {
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #fff;
+    padding-bottom: 55px;
+}
+
+#wrap div.seventh h2 {
+    font-size: 45px;
+    line-height: 30px;
+    color: #ccc;
+}
+
+/* 여덟번째 영역 CSS */
+#wrap div.eighth {
+    width: 100%;
+    height: 25vh;
+    text-align: center;
+    background: salmon;
+    border-radius: 10%;
+    border: 1px solid rgba(255,255,255,0.5);
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.06);
+    z-index: 10;
+}
+
+#wrap div.eighth h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#wrap div.eighth h2 {
+    font-size: 35px;
+    line-height: 30px;
+    color: #ccc;
+    line-height: 50px;
+}
